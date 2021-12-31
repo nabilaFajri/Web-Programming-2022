@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemasanan tiket Nabila</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+            <div align= "center"><h2>FORM PEMESANAN TIKET KERETA API</h2>
+            <table border=2>
+            <table>
+                
+            <tr align=left>
+            <td><label>NAMA</label></td>
+            <td>: <input type="text" id="inp_nama" name=""></td>
+            </tr>
+            <tr>
+            <td><label>EMAIL</label></td>
+            <td>: <input type="text" id="inp_ktp" name=""></td>
+            </tr>
+
+            <tr align=left>
+            <td><label>TUJUAN</label></td>
+            <td>
+            : <select onchange="Tujuan()" id="inp_tujuan">
+            <option>--PILIH TUJUAN--</option><br>
+            <option value="jmbr">DEPOK</option>
+            <option value="sby">CILEBUT</option>
+            <option value="kbm">JAKARTA</option>
+            </select>
+            </td>
+            </tr>
+
+            <tr align=left>
+            <td><label>KERETA</label></td>
+            <td>
+            : <select onchange="harganya()" id="kereta2">
+            <option>--PILIH KERETA--</option>
+            </select>
+            </td>
+            </tr>
+
+            <tr align=left>
+            <td><label>HARGA TIKET</label></td>
+            <td>: <input type="text" id="tampil" disabled="true" name=""></td>
+
+            <tr>
+            <td><label>JUMLAH</label></td>
+            <td>: <input onkeyup="Total()" type="number" id="inp_jumlah" name=""></td>
+            </tr>
+
+            <tr align=left>
+            <td><label>TOTAL</label></td>
+            <td>: <input type="text" id="total2" disabled="true" name=""></td>
+            </tr>
+            </table>
+ 
+            <tr align=center>
+            <td colspan=3><input type="submit" value="Proses" />
+                <input type="reset" value="Batal" />
+            </td>
+            </tr>
+
+            </form>
+            <script src="script.js" href="style.css"></script>
+            <script>
+            var tanggal=Date();
+            alert("Terimakasih sudah membeli tiket keretamu di layanan kami, silahkan input berkas: "+tanggal);
+            </script>
+</body>
+</html>

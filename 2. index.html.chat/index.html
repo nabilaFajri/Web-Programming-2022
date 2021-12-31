@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            width: 50%;
+        }
+        fieldset {
+    background-color: rgb(210, 160, 252);
+}
+        table th {
+            background-color: rgb(204, 149, 255);
+            width: 20%;
+        }
+        table td {
+            background: blueviolet;
+            width: 20%;
+            text-align: center;
+        }
+        select {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>ChatBox</legend>
+        <div class="panel-body">
+            <ul class="chat">
+            <li class="left clearfix"><span class="chat-img pull-left">
+            <img src="img/logo bila.jpg" width="60px" alt="User Avatar" class="img-circle" />
+            </span>
+
+        <div class="chat-body clearfix">
+        <div class="header">
+        <strong class="primary-font">Nabila</strong> <small class="pull-right text-muted">
+        <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+        </div>
+            <p>Hallo</p>
+            <p>Apa Kabar? </p>
+        </div>
+        </li>
+
+        <li class="right clearfix"><span class="chat-img pull-right">
+        <img src="img/logo nia.jpg" width="50px" alt="User Avatar" class="img-circle" />
+        </span>
+        <div class="chat-body clearfix">
+        <div class="header">
+        <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+        <strong class="pull-right primary-font">Nia</strong>
+        </div>
+        <p>Baik ya?
+                            </p>
+                        </div>
+                    </li>  <li class="left clearfix"><span class="chat-img pull-left">
+                        <img  src="img/logo bila.jpg" width="60px" alt="User Avatar" class="img-circle" />
+                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">Nabila</strong> <small class="pull-right text-muted">
+                                    <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+                            </div>
+                            <p>
+                                Iyah nih
+                            </p>
+                        </div>
+            </div>
+            <div class="panel-footer">
+                <div class="input-group">
+                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                    <span class="input-group-btn">
+                        <button class="btn btn-warning btn-sm" id="btn-chat">
+                            Send</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+</div>
+</fieldset>
+
+</body>
+</html>
